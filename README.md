@@ -12,6 +12,7 @@ To build and run the containers, execute the following command in the root direc
 ### **Backend Application**  
 - **Port:** `8080`  
 - **URL:** [http://localhost:8080](http://localhost:8080)
+- **Swagger Documentation:** [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
 
 ### **Database (PostgreSQL)**  
 - **Port:** `5432`  
@@ -23,6 +24,14 @@ To build and run the containers, execute the following command in the root direc
 ### **Frontend Application**  
 - **Port:** `3000`  
 - **URL:** [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 3. Unit Tests  
+Unit tests are located in the following file:  
+`FilmManagementSystem.Tests\FilmServiceTests.cs`  
+
+These tests cover the business logic of the `FilmService` and ensure the correctness of core functionalities.
 
 ---
 
